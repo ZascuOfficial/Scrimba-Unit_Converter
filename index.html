@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Scrimba | Unit Converter">
+    <meta name="keywords" content="Website, html, css, js, Scrimba">
+    <meta name="author" content="Zascu">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet"> 
+
+    <title>Scrimba | Unit Converter</title>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <main id="main-section">
+        <h1>Unit Converter</h1>
+
+        <input type="text" id="number-input-el">
+        <button id="convert-btn">Convert</button>
+      </main>
+
+      <section id="conversion-section">
+
+        <div class="conversion-info">
+          <h2>Length (Meter / Feet)</h2>
+
+          <p>
+            <span class="initial-value">0</span>
+            meters =
+            <span id="feet">0</span>
+            feet
+          </p>
+
+          <p>
+            <span class="initial-value">0</span>
+            feet =
+            <span id="meters">0</span>
+            meters
+          </p>
+        </div>
+
+        <div class="conversion-info">
+          <h2>Volume (Liters / Gallons)</h2>
+
+          <p>
+            <span class="initial-value">0</span>
+            liters =
+            <span id="gallons">0</span>
+            gallons
+          </p>
+
+          <p>
+            <span class="initial-value">0</span>
+            gallons =
+            <span id="liters">0</span>
+            liters
+          </p>
+        </div>
+
+        <div class="conversion-info">
+          <h2>Mass (Kilograms / Pounds)</h2>
+
+          <p>
+            <span class="initial-value">0</span>
+            kilos =
+            <span id="pounds">0</span>
+            pounds
+          </p>
+
+          <p>
+            <span class="initial-value">0</span>
+            pounds =
+            <span id="kilos">0</span>
+            kilos
+          </p>
+        </div>
+
+      </section>
+
+    </div>
+
+    <script src="js/main.js"></script>
+
+  </body>
+
+</html>
