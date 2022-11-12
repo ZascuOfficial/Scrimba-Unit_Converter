@@ -44,11 +44,21 @@ body {
 #convert-btn {
   padding: 9px 27px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 800;
   background-color: #fff;
   color: #3D3D3D;
   border: none;
   border-radius: 5px;
+}
+
+#convert-btn:hover {
+  background-color: #2b1763;
+  color: #fff;
+}
+
+#convert-btn:active {
+  background-color: #b4a6f5;
+  color: #2b1763;
 }
 
 #conversion-section {
