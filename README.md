@@ -4,6 +4,4 @@ The free learn JavaScript course has been a wonderful journey, but now it's time
 
 Scrimba Course - https://scrimba.com/learn/learnjavascript
 
-My Twitter - https://twitter.com/ZascuOfficial
-
 The Website Page - https://zascuofficial.github.io/Scrimba-Unit_Converter/
